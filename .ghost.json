@@ -5,6 +5,6 @@
   },
   "production": {
     "apiUrl": "https://neon-crepe-895594.netlify.app",
-    "contentApiKey": "%API_KEY%"
+    "contentApiKey": "3e65c97d3a81e263bb7d7669b2"
   }
 }
