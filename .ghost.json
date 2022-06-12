@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "%GATSBY_API_URL%",
-    "contentApiKey": "%API_KEY%"
+    "apiUrl": "http://localhost:2368",
+    "contentApiKey": "3e65c97d3a81e263bb7d7669b2"
   },
   "production": {
-    "apiUrl": "%GATSBY_API_URL%",
-    "contentApiKey": "%API_KEY%"
+    "apiUrl": "https://neon-crepe-895594.netlify.app",
+    "contentApiKey": "3e65c97d3a81e263bb7d7669b2"
   }
 }
