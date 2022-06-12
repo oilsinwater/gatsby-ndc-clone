@@ -4,7 +4,7 @@
     "contentApiKey": "%API_KEY%"
   },
   "production": {
-    "apiUrl": "%GATSBY_API_URL%",
+    "apiUrl": "https://neon-crepe-895594.netlify.app/",
     "contentApiKey": "%API_KEY%"
   }
 }
