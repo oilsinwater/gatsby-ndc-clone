@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "%GATSBY_API_URL%",
+    "contentApiKey": "%API_KEY%"
+  },
+  "production": {
+    "apiUrl": "%GATSBY_API_URL%",
+    "contentApiKey": "%API_KEY%"
+  }
+}
