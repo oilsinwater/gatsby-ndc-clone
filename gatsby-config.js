@@ -1,10 +1,6 @@
 /* eslint-disable semi */
 /* eslint-disable no-unsafe-finally */
 /* eslint-disable no-restricted-syntax */
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
 const path = require(`path`);
 
 const config = require(`./src/utils/siteConfig`);
