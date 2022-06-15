@@ -1,11 +1,17 @@
 module.exports = {
-    'parser': 'babel-eslint',
+    'parser': '@babel/eslint-parser',
     'parserOptions': {
+        'babelOptions': {
+            babelrc: false,
+            configFile: false,
+            presets: ["@babel/preset-env"],
+        },
+        'requireConfigFile': false,
         'ecmaVersion': 6,
         'ecmaFeatures': {
             'jsx': true,
             'experimentalObjectRestSpread': true
-        }
+        },
     },
     plugins: ['ghost', 'react'],
     extends: [
@@ -13,7 +19,7 @@ module.exports = {
         'plugin:ghost/ember',
         'plugin:react/recommended'
     ],
-    "settings": {
+    "settings": {   
         "react": {
             "createClass": "createReactClass",
             "pragma": "React",
